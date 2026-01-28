@@ -3,6 +3,26 @@
 
 <div class="timeline">
 
+  <!-- MSc -->
+  <div class="timeline-item">
+    <span class="timeline-dot"></span>
+
+    <div class="timeline-card">
+      <div class="timeline-header">
+        <span class="timeline-org">M.Sc. Computer Engineering (AI & Data Science)</span>
+        <span class="timeline-dates">Sep 2022 – Dec 2025</span>
+      </div>
+      <div class="timeline-meta">Polytechnic University of Bari · Final grade: 106/110</div>
+      <div class="timeline-desc">
+        Thesis:
+        <a href="assets/pdf/thesis_msc_neuro_symbolic_segmentation.pdf"
+           class="cactus-link" target="_blank" rel="noopener">
+          Neuro-Symbolic Semantic Segmentation Framework for Autonomous Space Exploration
+        </a>
+      </div>
+    </div>
+  </div>
+
   <!-- TRAPScore -->
   <div class="timeline-item">
     <span class="timeline-dot"></span>
@@ -64,26 +84,6 @@
         Media:
         <a href="#media-makerfaire-drone" class="cactus-link">Drone demo</a> ·
         <a href="#media-makerfaire-rover" class="cactus-link">Rover demos</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- MSc -->
-  <div class="timeline-item">
-    <span class="timeline-dot"></span>
-
-    <div class="timeline-card">
-      <div class="timeline-header">
-        <span class="timeline-org">M.Sc. Computer Engineering (AI & Data Science)</span>
-        <span class="timeline-dates">Sep 2022 – Dec 2025</span>
-      </div>
-      <div class="timeline-meta">Polytechnic University of Bari · Final grade: 106/110</div>
-      <div class="timeline-desc">
-        Thesis:
-        <a href="assets/pdf/thesis_msc_neuro_symbolic_segmentation.pdf"
-           class="cactus-link" target="_blank" rel="noopener">
-          Neuro-Symbolic Semantic Segmentation Framework for Autonomous Space Exploration
-        </a>
       </div>
     </div>
   </div>
