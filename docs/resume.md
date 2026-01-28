@@ -1,114 +1,84 @@
 # Résumé
 
-
-
 <div class="timeline">
 
-<div class="timeline-item">
-    <span class="timeline-dot"></span>
-    <div class="timeline-header">
-      <span class="timeline-org">University of Oxford</span>
-      <span class="timeline-role">DPhil in Machine Learning</span>
-      <span class="timeline-dates">Oct 2024 – <strong class="text-accent">Present</strong></span>
-    </div>
-    <div class="timeline-desc">AI Security and Safety research supervised by Jakob Foerster.</div>
-  </div>
-
-  <!-- <div class="timeline-item">
-    <span class="timeline-dot"></span>
-    <div class="timeline-header">
-      <span class="timeline-org">Cohere</span>
-      <span class="timeline-role">Intern of Technical Staff</span>
-      <span class="timeline-dates">Mar 2026 – <strong class="text-accent">Upcoming</strong></span>
-    </div>
-    <div class="timeline-meta">London, UK • Pretraining Team</div>
-    <div class="timeline-desc">Exploring more efficient Influence Functions for AI Security applications.</div>
-  </div> -->
-
   <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
-      <span class="timeline-org">MATS 10.0</span>
-      <span class="timeline-role">Neel Nanda's Exploration Phase</span>
-      <span class="timeline-dates">Feb 2026 – Mar 2026</span>
+      <span class="timeline-org">Polytechnic University of Bari</span>
+      <span class="timeline-role">Post-Graduate Research Fellow — TRAPScore</span>
+      <span class="timeline-dates">Apr 2024 – Oct 2024</span>
     </div>
-    <div class="timeline-meta">London, UK</div>
-    <div class="timeline-desc">Participating in 5-week Mechanistic Interpretability exploration phase.</div>
+    <div class="timeline-meta">Bari, Italy</div>
+    <div class="timeline-desc">
+      Developed a pest object-detection pipeline for in-field monitoring: dataset curation/versioning, training and validation of YOLOv8 models for insect detection and counting, and spatio-temporal analysis. Designed RGB edge platforms based on Raspberry Pi for real-time inference with OpenCV pre/post-processing and monitoring/reporting tooling.
+      <br><br>
+      Dataset: <a href="https://universe.roboflow.com/dacus-xksjc/bactrocera-oleae-detection/dataset/12" class="cactus-link" target="_blank" rel="noopener">Roboflow Universe</a>
+    </div>
   </div>
 
   <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
-      <span class="timeline-org">ARENA 7.0</span>
-      <span class="timeline-role">Teaching Assistant</span>
-      <span class="timeline-dates">Jan 2026</span>
+      <span class="timeline-org">Polytechnic University of Bari</span>
+      <span class="timeline-role">Post-Graduate Research Fellow — PON AGREED</span>
+      <span class="timeline-dates">Dec 2022 – Mar 2023</span>
     </div>
-    <div class="timeline-meta">London, UK • Mech Interp Week</div>
-    <div class="timeline-desc">TA for the Mechanistic Interpretability week following running a successful hackathon for ARENA 6.0.</div>
+    <div class="timeline-meta">Bari, Italy</div>
+    <div class="timeline-desc">
+      Brought up a tracked rover from mechanics-only base to operational system: power architecture, LiPo charging, motor control (Sabertooth 2x60), onboard compute, LiDAR/RGB-D integration, wiring and debugging. Implemented a ROS-based autonomy stack with LiDAR SLAM, sonar obstacle detection, sensor fusion (odometry/VO), and secure remote teleoperation (joystick + RGB streaming over Wi-Fi/SSH).
+    </div>
   </div>
 
   <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
-      <span class="timeline-org">Spotify</span>
-      <span class="timeline-role">Research Scientist Intern</span>
-      <span class="timeline-dates">Jun 2025 – Aug 2025</span>
+      <span class="timeline-org">Maker Faire Rome 2024 — The European Edition</span>
+      <span class="timeline-role">Winner & Research Presenter</span>
+      <span class="timeline-dates">Oct 2024</span>
     </div>
-    <div class="timeline-meta">London, UK • Hybrid</div>
-    <div class="timeline-desc">Investigating mechanistic interpretability for long-context reasoning in LLMs.</div>
+    <div class="timeline-meta">Rome, Italy</div>
+    <div class="timeline-desc">
+      Presented applied robotics demonstrations: vision-driven drone control under low-latency constraints and a tracked rover for remote navigation and real-time 3D mapping (ROS + LiDAR SLAM).
+      <br><br>
+      Certificate: <a href="assets/pdf/makerfaire_2024_certificate.pdf" class="cactus-link" target="_blank" rel="noopener">PDF</a>
+    </div>
   </div>
 
   <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
-      <span class="timeline-org">UK AI Security Institute (AISI)</span>
-      <span class="timeline-role">Bounty Programme</span>
-      <span class="timeline-dates">Feb 2025 – Mar 2025</span>
+      <span class="timeline-org">Polytechnic University of Bari</span>
+      <span class="timeline-role">M.Sc. Computer Engineering (AI & Data Science)</span>
+      <span class="timeline-dates">Sep 2022 – Dec 2025</span>
     </div>
-    <div class="timeline-meta">Remote • Contract</div>
-    <div class="timeline-desc">Investigating the automated design of agentic systems for cybersecurity benchmarks.</div>
+    <div class="timeline-meta">Final grade: 106/110</div>
+    <div class="timeline-desc">
+      Thesis: <a href="assets/pdf/thesis_msc_neuro_symbolic_segmentation.pdf" class="cactus-link" target="_blank" rel="noopener">Neuro-Symbolic Semantic Segmentation Framework for Autonomous Space Exploration</a>
+    </div>
   </div>
 
   <div class="timeline-item">
     <span class="timeline-dot"></span>
     <div class="timeline-header">
-      <span class="timeline-org">Convergence</span>
-      <span class="timeline-role">Founding Member of Research Staff</span>
-      <span class="timeline-dates">Jul 2024 – Sep 2024</span>
+      <span class="timeline-org">Polytechnic University of Bari</span>
+      <span class="timeline-role">B.Sc. Electronics and Telecommunications Engineering</span>
+      <span class="timeline-dates">Sep 2016 – Apr 2022</span>
     </div>
-    <div class="timeline-meta">London, UK • On-site</div>
-    <div class="timeline-desc">Exploring automation and collaboration with web agents. <span class="text-accent">Acquired by Salesforce</span>.</div>
+    <div class="timeline-meta">Final grade: 104/110</div>
+    <div class="timeline-desc">
+      Thesis: <a href="assets/pdf/thesis_bsc_autonomous_robot_navigation.pdf" class="cactus-link" target="_blank" rel="noopener">Development of an Integrated Hardware Platform for Autonomous Robot Navigation</a>
+    </div>
   </div>
 
-  <div class="timeline-item">
-    <span class="timeline-dot"></span>
-    <div class="timeline-header">
-      <span class="timeline-org">Pynea</span>
-      <span class="timeline-role">Principal Machine Learning Engineer</span>
-      <span class="timeline-dates">Jan 2024 – Jul 2024</span>
-    </div>
-    <div class="timeline-meta">London, UK • On-site</div>
-    <div class="timeline-desc">Building recommender and search systems. Exploring geometric deep learning.</div>
-  </div>
-
-  <div class="timeline-item">
-    <span class="timeline-dot"></span>
-    <div class="timeline-header">
-      <span class="timeline-org">Artera</span>
-      <span class="timeline-role">Lead Software Engineer (Founding Team)</span>
-      <span class="timeline-dates">Sep 2022 – Dec 2023</span>
-    </div>
-    <div class="timeline-meta">London, UK • On-site</div>
-    <div class="timeline-desc">Leading the engineering team and developing foundational machine learning and computer vision algorithms.</div>
-  </div>
-
-  <div class="timeline-item">
-    <span class="timeline-dot"></span>
-    <div class="timeline-header">
-      <span class="timeline-org">University of Oxford</span>
-      <span class="timeline-role">Master of Engineering</span>
-      <span class="timeline-dates">Sep 2018 – Sep 2022</span>
-    </div>
-    <div class="timeline-meta">First Class • Academic Scholarship</div>
-  </div>
 </div>
+
+<hr>
+
+## Skills (high-level)
+- Programming: Python, C++, MATLAB  
+- Perception / ML: PyTorch, TensorFlow, YOLOv8, SegFormer  
+- CV / Data: OpenCV, NumPy, Pandas, Scikit-learn, Matplotlib  
+- Robotics: ROS/ROS2, SLAM, LiDAR, RGB-D, IMU, sonar, sensor fusion  
+- Simulation & Digital Twins: NVIDIA Omniverse, Isaac Sim, OpenUSD, Gazebo, RViz  
+- Systems & Tooling: Linux, Git, Docker, Conda, SSH, Raspberry Pi, Jetson, Pixhawk  
