@@ -1,32 +1,34 @@
-# Portfolio
+# Portfolio — Germano Pansini
 
-My personal portfolio website showcasing research in AI Safety and Machine Learning.
+Personal portfolio website showcasing research and projects in **Computer Vision, Robotics, and Applied AI**,  
+with a focus on real-time perception, edge deployment, and autonomous systems.
 
-**Live site:** [jrosser.co.uk](https://jrosseruk.github.io)
+**Live site:** https://germano-pansini.github.io/
 
 ## Preview
 
-![Portfolio Screenshot](docs/assets/screenshot.png)
+<!-- Optional: add a screenshot later -->
+<!-- ![Portfolio Screenshot](docs/assets/screenshot.png) -->
 
+## Scope
+
+This website collects:
+- Research activities and publications
+- Robotics and computer vision projects
+- Media demos (videos, posters)
+- Academic and professional résumé
+
+Content is written in Markdown and rendered into a lightweight static site.
 
 ## Tech Stack
 
 - Vanilla HTML, CSS, JavaScript
-- Markdown content
+- Markdown-based content
 - GitHub Pages hosting
 
 ## Development
 
+Serve locally:
+
 ```bash
-# Serve locally
 python -m http.server 8000 -d docs/
-```
-
-## Structure
-
-- `docs/index.html` - Main page
-- `docs/*.md` - Content (about, publications, resume)
-- `docs/styles.css` - Styling
-- `docs/script.js` - Functionality
-
-Inspired by [astro-theme-cactus](https://astro-cactus.chriswilliams.dev/) :)
