@@ -1172,16 +1172,20 @@ html {
 /* ============================= */
 /* Resume Timeline Component     */
 /* ============================= */
+
 .timeline {
     position: relative;
     margin: 2.5rem 0 1rem 0;
+
     /* space reserved for the timeline gutter (line + dot area) */
     --gutter: 2.75rem;
-    padding-left: var(--gutter);
+
     /* alignment vars */
     --dot-size: 0.85rem;
     --line-x: 1.25rem;
     --line-w: 2px;
+
+    padding-left: var(--gutter);
 }
 
 .timeline::before {
@@ -1203,17 +1207,58 @@ html {
     padding-bottom: 0;
 }
 
+/* Timeline dot */
 .timeline-dot {
     position: absolute;
-    /* place dot so its center matches the line center; adjust for gutter since dot is inside content box */
-    left: calc((var(--line-x) - var(--gutter)) + ((var(--line-w) - var(--dot-size)) / 2));
-    top: 0.25rem;
+    left: calc(
+        (var(--line-x) - var(--gutter)) +
+        ((var(--line-w) - var(--dot-size)) / 2)
+    );
+    top: 0.35rem;
     width: var(--dot-size);
     height: var(--dot-size);
     border-radius: 9999px;
     background: var(--color-accent);
     box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-accent) 20%, transparent);
+    z-index: 2;
+    transition: box-shadow 0.2s ease;
 }
+
+/* ============================= */
+/* Resume Card (Publication-like)*/
+/* ============================= */
+
+.timeline-card {
+    background-color: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    backdrop-filter: blur(8px);
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+}
+
+/* Hover / focus effect */
+.timeline-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px var(--color-shadow);
+    border-color: color-mix(
+        in srgb,
+        var(--color-accent) 40%,
+        var(--color-border)
+    );
+}
+
+/* Subtle dot emphasis when hovering the item */
+.timeline-item:hover .timeline-dot {
+    box-shadow: 0 0 0 6px color-mix(in srgb, var(--color-accent) 25%, transparent);
+}
+
+/* ============================= */
+/* Timeline content typography   */
+/* ============================= */
 
 .timeline-header {
     display: flex;
@@ -1229,8 +1274,8 @@ html {
 }
 
 .timeline-role {
-    color: var(--color-global-text);
     font-size: 1rem;
+    color: var(--color-global-text);
     opacity: 0.9;
 }
 
@@ -1251,15 +1296,26 @@ html {
     margin-top: 0.5rem;
 }
 
+/* ============================= */
+/* Responsive adjustments        */
+/* ============================= */
+
 @media (max-width: 640px) {
     .timeline {
         --gutter: 2rem;
-        padding-left: var(--gutter);
         --line-x: 0.9rem;
+        padding-left: var(--gutter);
     }
+
     .timeline-dates {
         width: 100%;
         margin-left: 0;
         opacity: 0.8;
+    }
+
+    /* Softer hover on mobile */
+    .timeline-card:hover {
+        transform: none;
+        box-shadow: 0 4px 12px var(--color-shadow);
     }
 }
