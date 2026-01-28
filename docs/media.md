@@ -62,13 +62,8 @@
     <img src="assets/images/makerfaire_2024_rover_poster.png" alt="Maker Faire 2024 — Rover demo poster" style="width:100%; border-radius:16px;">
   </div>
 
-  <div class="mb-3" style="display:flex; gap:14px; flex-wrap:wrap;">
-    <img src="videos/mapping_faithful.jpg" alt="Rover mapping snapshot" style="flex:1 1 260px; width:100%; max-width: 520px; border-radius:16px;">
-    <img src="videos/screenshot.png" alt="Rover system screenshot" style="flex:1 1 260px; width:100%; max-width: 520px; border-radius:16px;">
-  </div>
-
   <div class="opacity-90 mb-3">
-    YouTube demos (privacy-enhanced embed, playable inline):
+    YouTube demos:
   </div>
 
   <div style="display:flex; gap:16px; flex-wrap:wrap;">
