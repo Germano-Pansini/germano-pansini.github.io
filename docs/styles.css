@@ -201,6 +201,29 @@ body {
     animation: bee-fly 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
 }
 
+/* Team photos grid (uniform size) */
+.team-photos {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.team-photo {
+  flex: 1 1 240px;
+  max-width: 520px;
+  aspect-ratio: 4 / 3;     /* stesso formato per tutte */
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: var(--color-border);
+}
+
+.team-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;       /* riempie senza distorsioni */
+}
+
+
 @keyframes bee-fly {
     0% {
         transform: translate(0, 0) rotate(0deg);

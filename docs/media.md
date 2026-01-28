@@ -105,16 +105,19 @@
 <a id="media-photos"></a>
 ## Photos
 
-<div class="rounded-2xl border border-accent-2/20 bg-accent-2/5 p-4">
-  <div style="display:flex; gap:14px; flex-wrap:wrap;">
+<div class="team-photos">
+  <div class="team-photo">
     <img src="assets/images/makerfaire_2024_team_photo_1.jpeg"
-         alt="Maker Faire Rome 2024 — team photo 1"
-         style="flex:1 1 240px; width:100%; max-width:520px; border-radius:16px;">
+         alt="Maker Faire Rome 2024 — team photo 1">
+  </div>
+
+  <div class="team-photo">
     <img src="assets/images/makerfaire_2024_team_photo_2.jpg"
-         alt="Maker Faire Rome 2024 — team photo 2"
-         style="flex:1 1 240px; width:100%; max-width:520px; border-radius:16px;">
+         alt="Maker Faire Rome 2024 — team photo 2">
+  </div>
+
+  <div class="team-photo">
     <img src="assets/images/makerfaire_2024_team_photo_3.jpg"
-         alt="Maker Faire Rome 2024 — team photo 3"
-         style="flex:1 1 240px; width:100%; max-width:520px; border-radius:16px;">
+         alt="Maker Faire Rome 2024 — team photo 3">
   </div>
 </div>
