@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>J Rosser - Portfolio</title>
-    <meta name="description" content="DPhil student at Oxford studying Machine Learning and AI Safety">
+
+    <title>Germano Pansini — Robotics & Computer Vision</title>
+    <meta name="description" content="Robotics and Computer Vision Engineer focused on perception, embedded AI, and simulation-driven development.">
+
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <script>
         (function() {
             try {
@@ -20,10 +23,11 @@
         })();
     </script>
 </head>
+
 <body class="bg-global-bg text-global-text antialiased">
-    <!-- Fixed Header -->
-    <header id="main-header" class="group">
-        <div class="header-grid">
+
+<header id="main-header" class="group">
+    <div class="header-grid">
             <!-- Logo -->
             <a href="#" class="group header-logo flex items-center">
                     <svg aria-hidden="true" class="me-3 h-10 w-6 sm:me-3 sm:h-20 sm:w-12" fill="none" focusable="false" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
@@ -32,80 +36,74 @@
                     </svg>
             </a>
 
-            <!-- Title -->
-            <div class="header-title">
-                <span class="text-xl font-bold sm:text-2xl">J Rosser</span>
-            </div>
-
-            <!-- Desktop Navigation -->
-            <nav class="mobile-nav-menu header-nav sm:flex sm:flex-row sm:items-center" id="navigation-menu">
-                <a href="#about">About</a>
-                <!-- <a href="#news">News</a> -->
-                <a href="#publications">Publications</a>
-                <a href="#resume">Résumé</a>
-            </nav>
-
-            <!-- Controls -->
-            <div class="header-controls flex items-center gap-3">
-                <!-- Theme Toggle -->
-                <button id="theme-toggle" class="flex h-7 w-7 items-center justify-center rounded-md border border-accent-2/20 bg-accent-2/10 p-1 transition-colors hover:bg-accent-2/20" aria-label="Switch to dark theme">
-                    <svg class="sun-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path>
-                    </svg>
-                    <svg class="moon-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
-                    </svg>
-                </button>
-
-                <!-- Mobile Menu Toggle -->
-                <button id="toggle-navigation-menu" class="flex h-7 w-7 items-center justify-center rounded-md border border-accent-2/20 bg-accent-2/10 p-1 transition-colors hover:bg-accent-2/20 sm:hidden" aria-expanded="false" aria-label="Toggle navigation menu">
-                    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                    <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                    </svg>
-                </button>
-            </div>
+        <!-- Title -->
+        <div class="header-title">
+            <span class="text-xl font-bold sm:text-2xl">Germano Pansini</span>
         </div>
-    </header>
 
-    <!-- Main Content -->
-    <main class="mx-auto max-w-3xl px-4 sm:px-8">
-        <!-- About Section -->
-        <section id="about" class="mb-16">
-            <div class="prose" id="about-content">
-                <div class="loading-spinner">Loading about content...</div>
-            </div>
-        </section>
+        <!-- Navigation -->
+        <nav class="mobile-nav-menu header-nav sm:flex sm:flex-row sm:items-center" id="navigation-menu">
+            <a href="#about">About</a>
+            <a href="#publications">Publications</a>
+            <a href="#resume">Résumé</a>
+        </nav>
 
-        <!-- News Section -->
-        <!-- <section id="news" class="mb-16">
-            <div class="prose" id="news-content">
-                <div class="loading-spinner">Loading news content...</div>
-            </div>
-        </section> -->
+        <!-- Controls -->
+        <div class="header-controls flex items-center gap-3">
 
-        <!-- Publications Section -->
-        <section id="publications" class="mb-16">
-            <div class="prose" id="publications-content">
-                <div class="loading-spinner">Loading publications content...</div>
-            </div>
-        </section>
+            <!-- Theme Toggle -->
+            <button id="theme-toggle"
+                class="flex h-7 w-7 items-center justify-center rounded-md border border-accent-2/20 bg-accent-2/10 p-1 transition-colors hover:bg-accent-2/20"
+                aria-label="Toggle theme">
+                <svg class="sun-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1z" />
+                </svg>
+                <svg class="moon-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
+                </svg>
+            </button>
 
-        <!-- Resume Section -->
-        <section id="resume" class="mb-16">
-            <div class="prose" id="resume-content">
-                <div class="loading-spinner">Loading resume content...</div>
-            </div>
-        </section>
-    </main>
-
-    <!-- Footer -->
-    <div class="mx-auto max-w-3xl px-4 sm:px-8 py-8 text-center text-sm opacity-75">
-        <p>Built from scratch by me and Claude :)</p>
+            <!-- Mobile Menu Toggle -->
+            <button id="toggle-navigation-menu"
+                class="flex h-7 w-7 items-center justify-center rounded-md border border-accent-2/20 bg-accent-2/10 p-1 transition-colors hover:bg-accent-2/20 sm:hidden"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
+        </div>
     </div>
+</header>
 
-    <script src="script.js"></script>
+<!-- Main Content -->
+<main class="mx-auto max-w-3xl px-4 sm:px-8">
+
+    <section id="about" class="mb-16">
+        <div class="prose" id="about-content">
+            <div class="loading-spinner">Loading about content…</div>
+        </div>
+    </section>
+
+    <section id="publications" class="mb-16">
+        <div class="prose" id="publications-content">
+            <div class="loading-spinner">Loading publications…</div>
+        </div>
+    </section>
+
+    <section id="resume" class="mb-16">
+        <div class="prose" id="resume-content">
+            <div class="loading-spinner">Loading résumé…</div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="mx-auto max-w-3xl px-4 sm:px-8 py-8 text-center text-sm opacity-75">
+    <p>© Germano Pansini — Robotics & Computer Vision</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
