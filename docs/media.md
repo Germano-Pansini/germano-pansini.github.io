@@ -63,38 +63,41 @@
   </div>
 
   <div class="opacity-90 mb-3">
-    YouTube demos:
+  YouTube demos:
+</div>
+
+<div style="display:flex; flex-direction:column; gap:24px; max-width:880px;">
+  
+  <div>
+    <div style="position:relative; width:100%; padding-top:56.25%; border-radius:16px; overflow:hidden;">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/MevmB0SO3JE"
+        title="Robotics demo 1.0"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        style="position:absolute; inset:0; width:100%; height:100%; border:0;">
+      </iframe>
+    </div>
+    <div class="mt-2 text-sm opacity-80">Robotics demo 1.0</div>
   </div>
 
-  <div style="display:flex; gap:16px; flex-wrap:wrap;">
-    <div style="flex:1 1 360px; min-width: 280px;">
-      <div style="position:relative; width:100%; padding-top:56.25%; border-radius:16px; overflow:hidden;">
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/MevmB0SO3JE"
-          title="Robotics demo 1.0"
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-          style="position:absolute; inset:0; width:100%; height:100%; border:0;">
-        </iframe>
-      </div>
-      <div class="mt-2 text-sm opacity-80">Robotics demo 1.0</div>
+  <div>
+    <div style="position:relative; width:100%; padding-top:56.25%; border-radius:16px; overflow:hidden;">
+      <iframe
+        src="https://www.youtube-nocookie.com/embed/FkRZWmPqa9c"
+        title="Robotics demo 2.0"
+        loading="lazy"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+        style="position:absolute; inset:0; width:100%; height:100%; border:0;">
+      </iframe>
     </div>
-
-    <div style="flex:1 1 360px; min-width: 280px;">
-      <div style="position:relative; width:100%; padding-top:56.25%; border-radius:16px; overflow:hidden;">
-        <iframe
-          src="https://www.youtube-nocookie.com/embed/FkRZWmPqa9c"
-          title="Robotics demo 2.0"
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-          style="position:absolute; inset:0; width:100%; height:100%; border:0;">
-        </iframe>
-      </div>
-      <div class="mt-2 text-sm opacity-80">Robotics demo 2.0</div>
-    </div>
+    <div class="mt-2 text-sm opacity-80">Robotics demo 2.0</div>
   </div>
+
+</div>
+
 </div>
 
 <br>
