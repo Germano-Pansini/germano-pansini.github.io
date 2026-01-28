@@ -81,4 +81,4 @@
 - CV / Data: OpenCV, NumPy, Pandas, Scikit-learn, Matplotlib  
 - Robotics: ROS/ROS2, SLAM, LiDAR, RGB-D, IMU, sonar, sensor fusion  
 - Simulation & Digital Twins: NVIDIA Omniverse, Isaac Sim, OpenUSD, Gazebo, RViz  
-- Systems & Tooling: Linux, Git, Docker, Conda, SSH, Raspberry Pi, Jetson, Pixhawk  
+- Systems & Tooling: Linux (Ubuntu), Git, Docker, Conda, SSH, Raspberry Pi, Jetson, Pixhawk  
