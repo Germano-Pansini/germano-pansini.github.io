@@ -36,8 +36,10 @@
   </div>
 </div>
 
-I build robots that actually run in the real world — where sensors drift, frames drop, batteries sag, and “it worked in sim” stops being an excuse.
+I enjoy building robots and intelligent systems that interact with the physical world, combining perception, learning, and real-time control.
 
-My comfort zone sits at the hardware/software boundary: computer vision, perception stacks, and real-time deployment on edge devices (Raspberry Pi / Jetson) and real platforms (ROS/ROS2, LiDAR, RGB-D, IMU, sonar). I like end-to-end work: collect data, train models, integrate with the robot, ship it, validate it, iterate.
+I hold a B.Sc. in Electronics and Telecommunications Engineering and I am completing an M.Sc. in Computer Engineering (AI & Data Science) at the [Polytechnic University of Bari](https://www.poliba.it/). My academic and research activity has been carried out within the [SST Lab — Signals and Systems for Telecommunications and Robotics](https://research.poliba.it/laboratories/sst-lab), where I was awarded two post-graduate research fellowships and worked on applied robotics and computer vision projects.
 
-Recent work spans pest detection on embedded vision pipelines (YOLOv8 + OpenCV) and field monitoring, plus tracked rovers and drone demos focused on low-latency control and 3D mapping (ROS + LiDAR SLAM). I’m happiest when the loop closes: camera → compute → actuation → behavior.
+My work focuses on computer vision, perception pipelines, and deployment on real robotic platforms. I design end-to-end systems, from data collection and model training to integration on edge devices (Raspberry Pi, Jetson) and robotic frameworks (ROS/ROS2, LiDAR, RGB-D, IMU). Recent projects include embedded vision for in-field monitoring, vision-driven drone control via hand gestures, and tracked rovers for remote navigation and real-time 3D mapping.
+
+Watch the **Media** section to see the projects in action :) .
