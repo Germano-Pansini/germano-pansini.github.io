@@ -1,3 +1,4 @@
+<!-- docs/resume.md -->
 # Résumé
 
 <div class="timeline">
@@ -27,6 +28,8 @@
     <div class="timeline-meta">Bari, Italy</div>
     <div class="timeline-desc">
       Brought up a tracked rover from mechanics-only base to operational system: power architecture, LiPo charging, motor control (Sabertooth 2x60), onboard compute, LiDAR/RGB-D integration, wiring and debugging. Implemented a ROS-based autonomy stack with LiDAR SLAM, sonar obstacle detection, sensor fusion (odometry/VO), and secure remote teleoperation (joystick + RGB streaming over Wi-Fi/SSH).
+      <br><br>
+      Media: <a href="#media-makerfaire-rover" class="cactus-link">Rover demos</a>
     </div>
   </div>
 
@@ -42,6 +45,8 @@
       Presented applied robotics demonstrations: vision-driven drone control under low-latency constraints and a tracked rover for remote navigation and real-time 3D mapping (ROS + LiDAR SLAM).
       <br><br>
       Certificate: <a href="assets/pdf/makerfaire_2024_certificate.pdf" class="cactus-link" target="_blank" rel="noopener">PDF</a>
+      <br><br>
+      Media: <a href="#media-makerfaire-drone" class="cactus-link">Drone demo</a> · <a href="#media-makerfaire-rover" class="cactus-link">Rover demos</a>
     </div>
   </div>
 
@@ -55,6 +60,8 @@
     <div class="timeline-meta">Final grade: 106/110</div>
     <div class="timeline-desc">
       Thesis: <a href="assets/pdf/thesis_msc_neuro_symbolic_segmentation.pdf" class="cactus-link" target="_blank" rel="noopener">Neuro-Symbolic Semantic Segmentation Framework for Autonomous Space Exploration</a>
+      <br><br>
+      Documents: <a href="#media-docs" class="cactus-link">PDFs</a>
     </div>
   </div>
 
@@ -68,6 +75,8 @@
     <div class="timeline-meta">Final grade: 104/110</div>
     <div class="timeline-desc">
       Thesis: <a href="assets/pdf/thesis_bsc_autonomous_robot_navigation.pdf" class="cactus-link" target="_blank" rel="noopener">Development of an Integrated Hardware Platform for Autonomous Robot Navigation</a>
+      <br><br>
+      Documents: <a href="#media-docs" class="cactus-link">PDFs</a>
     </div>
   </div>
 
