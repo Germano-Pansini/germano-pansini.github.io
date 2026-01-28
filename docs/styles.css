@@ -436,28 +436,20 @@ body {
 }
 
 /* Theme icon visibility */
+/* Stato di default: LIGHT */
+.sun-icon {
+    display: none;
+}
+.moon-icon {
+    display: block;
+}
+
+/* DARK mode */
 [data-theme="dark"] .sun-icon {
     display: block;
 }
-
 [data-theme="dark"] .moon-icon {
     display: none;
-}
-
-[data-theme="light"] .sun-icon {
-    display: none;
-}
-
-[data-theme="light"] .moon-icon {
-    display: block;
-}
-
-:root .sun-icon {
-    display: none;
-}
-
-:root .moon-icon {
-    display: block;
 }
 
 /* Prose styles (typography) */
