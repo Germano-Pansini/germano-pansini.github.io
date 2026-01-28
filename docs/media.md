@@ -14,10 +14,14 @@
 ### Vision-Driven Drone Control (Gesture / Low-Latency)
 
 <div class="rounded-2xl border border-accent-2/20 bg-accent-2/5 p-4">
+
   <div class="mb-3">
-    <img src="assets/images/makerfaire_2024_drone_poster.png"
-         alt="Maker Faire 2024 — Drone demo poster"
-         style="width:100%; border-radius:16px;">
+    <a href="assets/images/makerfaire_2024_drone_poster.png"
+       target="_blank" rel="noopener">
+      <img src="assets/images/makerfaire_2024_drone_poster.png"
+           alt="Maker Faire 2024 — Drone demo poster"
+           style="width:100%; border-radius:16px;">
+    </a>
   </div>
 
   <div class="mb-3" style="max-width: 880px;">
@@ -57,10 +61,14 @@
 ### Tracked Rover — Remote Navigation & Real-Time 3D Mapping (ROS + LiDAR SLAM)
 
 <div class="rounded-2xl border border-accent-2/20 bg-accent-2/5 p-4">
+
   <div class="mb-3">
-    <img src="assets/images/makerfaire_2024_rover_poster.png"
-         alt="Maker Faire 2024 — Rover demo poster"
-         style="width:100%; border-radius:16px;">
+    <a href="assets/images/makerfaire_2024_rover_poster.png"
+       target="_blank" rel="noopener">
+      <img src="assets/images/makerfaire_2024_rover_poster.png"
+           alt="Maker Faire 2024 — Rover demo poster"
+           style="width:100%; border-radius:16px;">
+    </a>
   </div>
 
   <div class="opacity-90 mb-3">
@@ -68,7 +76,7 @@
   </div>
 
   <div style="display:flex; flex-direction:column; gap:24px; max-width:880px;">
-    
+
     <div>
       <div style="position:relative; width:100%; padding-top:56.25%; border-radius:16px; overflow:hidden;">
         <iframe
@@ -80,7 +88,9 @@
           style="position:absolute; inset:0; width:100%; height:100%; border:0;">
         </iframe>
       </div>
-      <div class="mt-2 text-sm opacity-80">Tracked rover demo — navigation and mapping</div>
+      <div class="mt-2 text-sm opacity-80">
+        Tracked rover demo — navigation and mapping
+      </div>
     </div>
 
     <div>
@@ -94,7 +104,9 @@
           style="position:absolute; inset:0; width:100%; height:100%; border:0;">
         </iframe>
       </div>
-      <div class="mt-2 text-sm opacity-80">Tracked rover demo — SLAM and teleoperation</div>
+      <div class="mt-2 text-sm opacity-80">
+        Tracked rover demo — SLAM and teleoperation
+      </div>
     </div>
 
   </div>
@@ -106,18 +118,29 @@
 ## Photos
 
 <div class="team-photos">
+
   <div class="team-photo">
-    <img src="assets/images/makerfaire_2024_team_photo_1.jpeg"
-         alt="Maker Faire Rome 2024 — team photo 1">
+    <a href="assets/images/makerfaire_2024_team_photo_1.jpeg"
+       target="_blank" rel="noopener">
+      <img src="assets/images/makerfaire_2024_team_photo_1.jpeg"
+           alt="Maker Faire Rome 2024 — team photo 1">
+    </a>
   </div>
 
   <div class="team-photo">
-    <img src="assets/images/makerfaire_2024_team_photo_2.jpg"
-         alt="Maker Faire Rome 2024 — team photo 2">
+    <a href="assets/images/makerfaire_2024_team_photo_2.jpg"
+       target="_blank" rel="noopener">
+      <img src="assets/images/makerfaire_2024_team_photo_2.jpg"
+           alt="Maker Faire Rome 2024 — team photo 2">
+    </a>
   </div>
 
   <div class="team-photo">
-    <img src="assets/images/makerfaire_2024_team_photo_3.jpg"
-         alt="Maker Faire Rome 2024 — team photo 3">
+    <a href="assets/images/makerfaire_2024_team_photo_3.jpg"
+       target="_blank" rel="noopener">
+      <img src="assets/images/makerfaire_2024_team_photo_3.jpg"
+           alt="Maker Faire Rome 2024 — team photo 3">
+    </a>
   </div>
+
 </div>

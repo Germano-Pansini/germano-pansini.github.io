@@ -6,59 +6,46 @@
     <div class="about-socials" style="display:flex;gap:1.25rem;align-items:center;flex-wrap:wrap;margin-top:0.5rem;">
       <a href="https://www.linkedin.com/in/germano-pansini/" target="_blank" rel="noopener"
          style="display:inline-flex;align-items:center;gap:0.5rem;text-decoration:none;color:var(--color-accent-2);">
-        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true"
-             style="width:20px;height:20px;opacity:0.9;" xmlns="http://www.w3.org/2000/svg">
-          <path d="M20 3H4a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM8.339 18.337H5.667v-8.59h2.672v8.59zM7.003 8.574a1.548 1.548 0 1 1 0-3.096 1.548 1.548 0 0 1 0 3.096zm11.335 9.763h-2.669V14.16c0-.996-.018-2.277-1.388-2.277-1.39 0-1.601 1.086-1.601 2.207v4.248h-2.667v-8.59h2.56v1.174h.037c.355-.675 1.227-1.387 2.524-1.387 2.704 0 3.203 1.778 3.203 4.092v4.71z"></path>
-        </svg>
         <span>LinkedIn</span>
       </a>
 
       <a href="https://github.com/Germano-Pansini" target="_blank" rel="noopener"
          style="display:inline-flex;align-items:center;gap:0.5rem;text-decoration:none;color:var(--color-accent-2);">
-        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" aria-hidden="true"
-             style="width:20px;height:20px;opacity:0.9;" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd"
-                d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z">
-          </path>
-        </svg>
         <span>GitHub</span>
       </a>
 
       <a href="mailto:germano.pansini@gmail.com"
          style="display:inline-flex;align-items:center;gap:0.5rem;text-decoration:none;color:var(--color-accent-2);">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-             viewBox="0 0 16 16" style="width:20px;height:20px;opacity:0.9;">
-          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
-        </svg>
         <span>Email</span>
       </a>
-    </div>
 
-    <a href="CV-Germano_PANSINI.pdf" target="_blank" rel="noopener"
-      style="display:inline-flex;align-items:center;gap:0.5rem;text-decoration:none;color:var(--color-accent-2);">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
-          style="width:20px;height:20px;opacity:0.9;" fill="currentColor">
-        <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V8h4.5L14 3.5zM8 12h8v-2H8v2zm0 4h8v-2H8v2zm0 4h5v-2H8v2z"/>
-      </svg>
-      <span>Download CV</span>
-    </a>
-    
+      <a href="CV-Germano_PANSINI.pdf" target="_blank" rel="noopener"
+         style="display:inline-flex;align-items:center;gap:0.5rem;text-decoration:none;color:var(--color-accent-2);">
+        <span>Download CV</span>
+      </a>
+    </div>
   </div>
 </div>
 
-I’m passionate about **autonomous robotics** and enjoy building robots and drones that interact with the real world. I like working end-to-end, combining **hands-on hardware work** (electronics, wiring, sensor integration) with **software development** for perception, control, and autonomy, mainly in Linux/Ubuntu environments using ROS/ROS2 and computer vision.
+I’m passionate about **autonomous robotics** and enjoy building robots and drones that interact with the real world.  
+I like working end-to-end, combining **hands-on hardware work** (electronics, wiring, sensor integration) with **software development** for perception, control, and autonomy, mainly on **Linux/Ubuntu** using **ROS/ROS2** and computer vision.
+
+My interests focus on **robotics perception and computer vision**, from data collection and model training to deployment on real robotic platforms.  
+I work on practical systems such as vision-driven drones and tracked rovers, with strong attention to real-time behavior, robustness, and system integration.
 
 ### Qualifications
-- **M.Sc. in Computer Engineering (AI & Data Science)** — Polytechnic University of Bari  
-- **B.Sc. in Electronics and Telecommunications Engineering** — Polytechnic University of Bari  
+- **Post-Graduate Research Fellow (2×)** —  
+  [SST Lab — Signals and Systems for Telecommunications and Robotics](https://research.poliba.it/laboratories/sst-lab),  
+  [Polytechnic University of Bari](https://www.poliba.it/)
+- **M.Sc. in Computer Engineering (AI & Data Science)** —  
+  [Polytechnic University of Bari](https://www.poliba.it/)
+- **B.Sc. in Electronics and Telecommunications Engineering** —  
+  [Polytechnic University of Bari](https://www.poliba.it/)
 
-My interests focus on **robotics perception and computer vision**, from data collection and model training to deployment on real robotic platforms. I work on practical systems such as vision-driven drones and tracked rovers, with strong attention to real-time behavior, robustness, and system integration.
-
-### Skills (high-level)
+### Skills
 - **Programming**: Python, C++, MATLAB  
 - **Perception / ML**: PyTorch, TensorFlow, YOLOv8, SegFormer  
 - **Computer Vision / Data**: OpenCV, NumPy, Pandas, Scikit-learn, Matplotlib  
 - **Robotics**: ROS/ROS2, SLAM, LiDAR, RGB-D, IMU, sonar, sensor fusion  
 - **Simulation & Digital Twins**: NVIDIA Omniverse, Isaac Sim, OpenUSD, Gazebo, RViz  
 - **Systems & Tooling**: Linux (Ubuntu), Git, Docker, Conda, SSH, Raspberry Pi, Jetson, Pixhawk
-
