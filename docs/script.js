@@ -292,10 +292,17 @@ class MarkdownLoader {
                     const markdown = await response.text();
                     const html = this.parseMarkdown(markdown);
                     contentElement.innerHTML = html;
+
+                    // About: subtle staged reveal animation
+                    if (section === 'about') {
+                        this.applyAboutReveal(contentElement);
+                    }
+
                     // Apply hover effect to new content
                     if (typeof window.applyBHoverEffect === 'function') {
                         window.applyBHoverEffect(contentElement);
                     }
+
                     console.log(`Successfully loaded ${section} from: ${fullPath}`);
                     return; // Success, exit early
                 } else {
@@ -322,6 +329,24 @@ class MarkdownLoader {
         if (typeof window.applyBHoverEffect === 'function') {
             window.applyBHoverEffect(contentElement);
         }
+    }
+
+    applyAboutReveal(root) {
+        const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (reduce) return;
+
+        const nodes = root.querySelectorAll('p, .about-header, ul, hr');
+        nodes.forEach((el, i) => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(6px)';
+            el.style.transition = 'opacity 420ms ease, transform 420ms ease';
+            el.style.transitionDelay = `${i * 70}ms`;
+
+            requestAnimationFrame(() => {
+                el.style.opacity = '1';
+                el.style.transform = 'translateY(0)';
+            });
+        });
     }
 
     parseMarkdown(markdown) {
