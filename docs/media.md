@@ -108,15 +108,15 @@
 <div class="rounded-2xl border border-accent-2/20 bg-accent-2/5 p-4">
   <ul>
     <li>
-      Maker Faire Rome 2024 — Certificate:
+      **Maker Faire Rome 2024** — Certificate:
       <a href="assets/pdf/makerfaire_2024_certificate.pdf" class="cactus-link" target="_blank" rel="noopener">PDF</a>
     </li>
     <li>
-      M.Sc. Thesis — Neuro-Symbolic Semantic Segmentation Framework for Autonomous Space Exploration:
+      **M.Sc. Thesis** — Neuro-Symbolic Semantic Segmentation Framework for Autonomous Space Exploration:
       <a href="assets/pdf/thesis_msc_neuro_symbolic_segmentation.pdf" class="cactus-link" target="_blank" rel="noopener">PDF</a>
     </li>
     <li>
-      B.Sc. Thesis — Development of an Integrated Hardware Platform for Autonomous Robot Navigation:
+      **B.Sc. Thesis** — Development of an Integrated Hardware Platform for Autonomous Robot Navigation:
       <a href="assets/pdf/thesis_bsc_autonomous_robot_navigation.pdf" class="cactus-link" target="_blank" rel="noopener">PDF</a>
     </li>
   </ul>
