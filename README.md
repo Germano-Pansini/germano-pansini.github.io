@@ -46,6 +46,3 @@ https://github.com/jrosseruk/jrosseruk.github.io
 
 Visual inspiration originally derived from
 https://astro-cactus.chriswilliams.dev/
-
-All content, projects, and media are original work unless otherwise stated.
-
