@@ -20,7 +20,6 @@
 
 <div class="mb-3" style="max-width: 880px;">
   <video controls preload="metadata"
-         poster="assets/images/makerfaire_2024_drone_poster.png"
          style="width:100%; border-radius:16px;">
     <source src="assets/videos/drone_gesture_control.mp4" type="video/mp4">
     <source src="videos/drone_gesture_control.mp4" type="video/mp4">
@@ -37,7 +36,6 @@
 
 <div class="mb-3" style="max-width: 880px;">
   <video controls preload="metadata"
-         poster="assets/images/makerfaire_2024_drone_poster.png"
          style="width:100%; border-radius:16px;">
     <source src="assets/videos/drone_gesture_control_2.mp4" type="video/mp4">
     <source src="videos/drone_gesture_control_2.mp4" type="video/mp4">
