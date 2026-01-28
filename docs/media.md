@@ -18,17 +18,40 @@
     <img src="assets/images/makerfaire_2024_drone_poster.png" alt="Maker Faire 2024 — Drone demo poster" style="width:100%; border-radius:16px;">
   </div>
 
-  <div class="mb-3" style="max-width: 880px;">
-    <video controls preload="metadata" poster="assets/images/makerfaire_2024_drone_poster.png" style="width:100%; border-radius:16px;">
-      <source src="assets/videos/drone_gesture_control.mp4" type="video/mp4">
-      <source src="videos/drone_gesture_control.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
+<div class="mb-3" style="max-width: 880px;">
+  <video controls preload="metadata"
+         poster="assets/images/makerfaire_2024_drone_poster.png"
+         style="width:100%; border-radius:16px;">
+    <source src="assets/videos/drone_gesture_control.mp4" type="video/mp4">
+    <source src="videos/drone_gesture_control.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
-  <div class="opacity-90">
-    Local MP4 hosted in the repo for fast playback without leaving the site.
-  </div>
+<div class="opacity-90 mb-4">
+  <strong>Continuous Gesture-Based Flight Control.</strong><br>
+  Real-time hand landmark tracking (MediaPipe) mapped to drone pose commands.
+  Smooth PID-controlled motion with ultra-low latency, designed for 5G-assisted
+  GPS-denied scenarios.
+</div>
+
+<div class="mb-3" style="max-width: 880px;">
+  <video controls preload="metadata"
+         poster="assets/images/makerfaire_2024_drone_poster.png"
+         style="width:100%; border-radius:16px;">
+    <source src="assets/videos/drone_gesture_control_2.mp4" type="video/mp4">
+    <source src="videos/drone_gesture_control_2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<div class="opacity-90">
+  <strong>Gesture-Triggered Aerial Maneuvers.</strong><br>
+  Discrete hand gestures interpreted by a neural model to trigger high-level
+  flight actions (flips, rotations, mode switches), layered on top of the same
+  vision-based control pipeline.
+</div>
+
 </div>
 
 <br>
