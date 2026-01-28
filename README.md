@@ -26,9 +26,26 @@ Content is written in Markdown and rendered into a lightweight static site.
 - Markdown-based content
 - GitHub Pages hosting
 
-## Development
+## Structure
 
-Serve locally:
+- docs/index.html – Main page
+- docs/about.md – About & selected projects
+- docs/publications.md – Publications
+- docs/resume.md – Résumé
+- docs/news.md – Timeline & updates
+- docs/assets/images/ – Images and posters
+- docs/assets/videos/ – Video demos
+- docs/assets/pdf/ – Certificates and thesis PDFs
+- docs/styles.css – Styling
+- docs/script.js – Client-side functionality
 
-```bash
-python -m http.server 8000 -d docs/
+## Credits
+
+Inspired by the portfolio structure and implementation by
+https://github.com/jrosseruk/jrosseruk.github.io
+
+Visual inspiration originally derived from
+https://astro-cactus.chriswilliams.dev/
+
+All content, projects, and media are original work unless otherwise stated.
+
