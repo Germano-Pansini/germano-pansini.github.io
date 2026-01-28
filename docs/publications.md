@@ -2,31 +2,14 @@
 
 ## Crop Monitoring via Deep-Learning-Based Pest Classification for Pesticide Reduction
 
-<div class="publication-card">
-  <div class="publication-image">
-    <img src="assets/images/IHTC.png" alt="IHTC 2024 — Pest Detection Pipeline">
-  </div>
+**IEEE International Humanitarian Technologies Conference (IHTC), 2024**
 
-  <div class="publication-content">
-    <div class="publication-venue">IEEE International Humanitarian Technologies Conference (IHTC), 2024</div>
+Antonello Longo, Maria Rizzi, Pierluigi Longo, **Germano Pansini**, Cataldo Guaragnella
 
-    <div class="publication-authors">
-      Antonello Longo, Maria Rizzi, Pierluigi Longo, <strong>Germano Pansini</strong>, Cataldo Guaragnella
-    </div>
+<img src="assets/images/IHTC.png" alt="IHTC 2024 — Pest Detection Pipeline" style="width:100%; max-width:720px; border-radius:16px; border:1px solid var(--color-border); background: var(--color-card-bg); display:block; margin: 0.75rem 0 0.75rem 0;">
 
-    <p class="publication-description">
-      This work proposes and evaluates a real-time deep-learning approach for multi-class pest detection,
-      addressing class imbalance and intra-class variability. The method is validated on the IP102 dataset
-      and demonstrates improved precision and F1 scores over YOLO baselines.
-    </p>
+This work proposes and evaluates a real-time deep-learning approach for multi-class pest detection,
+addressing class imbalance and intra-class variability.
+The method is validated on the IP102 dataset and demonstrates improved precision and F1 scores over YOLO baselines.
 
-    <div class="publication-doi">
-      <strong>DOI:</strong>
-      <a href="https://doi.org/10.1109/IHTC61819.2024.10855066"
-         class="cactus-link" target="_blank" rel="noopener">
-        https://doi.org/10.1109/IHTC61819.2024.10855066
-      </a>
-    </div>
-  </div>
-</div>
-
+- **DOI:** [https://doi.org/10.1109/IHTC61819.2024.10855066](https://doi.org/10.1109/IHTC61819.2024.10855066)
