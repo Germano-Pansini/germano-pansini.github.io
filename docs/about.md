@@ -36,9 +36,8 @@
   </div>
 </div>
 
-Engineer working on computer vision and perception for robotics, with a focus on real-time systems, edge deployment, and end-to-end autonomy pipelines.
+I build robots that actually run in the real world — where sensors drift, frames drop, batteries sag, and “it worked in sim” stops being an excuse.
 
-I hold a B.Sc. in Electronics and Telecommunications Engineering and an M.Sc. in Computer Engineering (AI & Data Science).
-My background sits at the intersection of computer vision, robotics perception, embedded systems, and deployment on real platforms.
+My comfort zone sits at the hardware/software boundary: computer vision, perception stacks, and real-time deployment on edge devices (Raspberry Pi / Jetson) and real platforms (ROS/ROS2, LiDAR, RGB-D, IMU, sonar). I like end-to-end work: collect data, train models, integrate with the robot, ship it, validate it, iterate.
 
-My work emphasizes **end-to-end systems**: from data acquisition and model training to integration, deployment, and validation on physical robots and edge devices.
+Recent work spans pest detection on embedded vision pipelines (YOLOv8 + OpenCV) and field monitoring, plus tracked rovers and drone demos focused on low-latency control and 3D mapping (ROS + LiDAR SLAM). I’m happiest when the loop closes: camera → compute → actuation → behavior.
