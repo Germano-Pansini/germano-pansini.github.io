@@ -24,7 +24,7 @@
         <span>GitHub</span>
       </a>
 
-      <a href="mailto:germanopansini@gmail.com"
+      <a href="mailto:germano.pansini@gmail.com"
          style="display:inline-flex;align-items:center;gap:0.5rem;text-decoration:none;color:var(--color-accent-2);">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
              viewBox="0 0 16 16" style="width:20px;height:20px;opacity:0.9;">
@@ -38,8 +38,9 @@
 
 I enjoy building robots and intelligent systems that interact with the physical world, combining perception, learning, and real-time control.
 
-I hold a B.Sc. in Electronics and Telecommunications Engineering and I am completing an M.Sc. in Computer Engineering (AI & Data Science) at the [Polytechnic University of Bari](https://www.poliba.it/). My academic and research activity has been carried out within the [SST Lab — Signals and Systems for Telecommunications and Robotics](https://research.poliba.it/laboratories/sst-lab), where I was awarded two post-graduate research fellowships and worked on applied robotics and computer vision projects.
+I hold a **M.Sc. in Computer Engineering (AI & Data Science)** and a **B.Sc. in Electronics and Telecommunications Engineering** from the [Polytechnic University of Bari](https://www.poliba.it/). My academic and research activity has been carried out within the [SST Lab — Signals and Systems for Telecommunications and Robotics](https://research.poliba.it/laboratories/sst-lab), where I was awarded **two post-graduate research fellowships** and worked on applied robotics and computer vision projects.
 
 My work focuses on computer vision, perception pipelines, and deployment on real robotic platforms. I design end-to-end systems, from data collection and model training to integration on edge devices (Raspberry Pi, Jetson) and robotic frameworks (ROS/ROS2, LiDAR, RGB-D, IMU). Recent projects include embedded vision for in-field monitoring, vision-driven drone control via hand gestures, and tracked rovers for remote navigation and real-time 3D mapping.
 
-Watch the **Media** section to see the projects in action :) .
+Watch the **Media** section to see the projects in action :).
+
