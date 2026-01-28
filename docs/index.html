@@ -24,9 +24,104 @@
 <header id="main-header" class="group">
   <div class="header-grid">
 
-    <a href="#" class="header-logo flex items-center">
-      <!-- SVG LOGO IDENTICO -->
-    </a>
+  <a href="#" class="header-logo flex items-center">
+    <svg viewBox="0 0 128 128"
+         xmlns="http://www.w3.org/2000/svg"
+         role="img"
+         aria-label="GP logo"
+         class="me-3 h-10 w-10 sm:h-12 sm:w-12">
+      <defs>
+        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#6D28D9"></stop>
+          <stop offset="0.55" stop-color="#22C55E"></stop>
+          <stop offset="1" stop-color="#0EA5E9"></stop>
+        </linearGradient>
+  
+        <radialGradient id="shine" cx="30%" cy="25%" r="70%">
+          <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"></stop>
+          <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.10"></stop>
+          <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"></stop>
+        </radialGradient>
+  
+        <linearGradient id="txt" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#F8FAFC"></stop>
+          <stop offset="1" stop-color="#E2E8F0"></stop>
+        </linearGradient>
+  
+        <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+          <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="b"></feGaussianBlur>
+          <feOffset in="b" dx="0" dy="8" result="o"></feOffset>
+          <feColorMatrix in="o" type="matrix"
+            values="0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 .35 0" result="s"></feColorMatrix>
+          <feMerge>
+            <feMergeNode in="s"></feMergeNode>
+            <feMergeNode in="SourceGraphic"></feMergeNode>
+          </feMerge>
+        </filter>
+  
+        <filter id="extrude" x="-30%" y="-30%" width="160%" height="160%">
+          <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="a"></feGaussianBlur>
+          <feOffset in="a" dx="2" dy="2" result="o1"></feOffset>
+          <feOffset in="a" dx="4" dy="4" result="o2"></feOffset>
+          <feOffset in="a" dx="6" dy="6" result="o3"></feOffset>
+          <feColorMatrix in="o1" type="matrix"
+            values="0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 .22 0" result="s1"></feColorMatrix>
+          <feColorMatrix in="o2" type="matrix"
+            values="0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 .16 0" result="s2"></feColorMatrix>
+          <feColorMatrix in="o3" type="matrix"
+            values="0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 0 0
+                    0 0 0 .10 0" result="s3"></feColorMatrix>
+          <feMerge>
+            <feMergeNode in="s3"></feMergeNode>
+            <feMergeNode in="s2"></feMergeNode>
+            <feMergeNode in="s1"></feMergeNode>
+            <feMergeNode in="SourceGraphic"></feMergeNode>
+          </feMerge>
+        </filter>
+  
+        <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+          <feGaussianBlur stdDeviation="2.5" result="g"></feGaussianBlur>
+          <feColorMatrix in="g" type="matrix"
+            values="1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 .25 0" result="gc"></feColorMatrix>
+          <feMerge>
+            <feMergeNode in="gc"></feMergeNode>
+            <feMergeNode in="SourceGraphic"></feMergeNode>
+          </feMerge>
+        </filter>
+      </defs>
+  
+      <g filter="url(#softShadow)">
+        <rect x="10" y="10" width="108" height="108" rx="24" fill="url(#bg)"></rect>
+        <rect x="10" y="10" width="108" height="108" rx="24" fill="url(#shine)"></rect>
+        <rect x="14" y="14" width="100" height="100" rx="20"
+              fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"></rect>
+      </g>
+  
+      <g font-family="JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace"
+         font-weight="800"
+         text-anchor="middle"
+         dominant-baseline="middle">
+        <text x="64" y="70" font-size="56" fill="#0B1220" opacity="0.22" filter="url(#extrude)">GP</text>
+        <text x="64" y="66" font-size="56" fill="url(#txt)" filter="url(#glow)" letter-spacing="-2">GP</text>
+        <text x="64" y="64" font-size="56" fill="#FFFFFF" opacity="0.16" letter-spacing="-2">GP</text>
+      </g>
+    </svg>
+  </a>
+
 
     <div class="header-title">
       <span class="text-xl font-bold sm:text-2xl">Germano Pansini</span>
