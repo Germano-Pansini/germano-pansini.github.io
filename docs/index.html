@@ -1,182 +1,186 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Germano Pansini — Robotics & Computer Vision</title>
-  <meta name="description" content="Robotics and Computer Vision Engineer focused on perception, embedded AI, and simulation-driven development.">
+    <title>Germano Pansini — Robotics & Computer Vision</title>
+    <meta name="description" content="Robotics and Computer Vision Engineer focused on perception, embedded AI, and end-to-end autonomous systems.">
 
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <script>
-    (function () {
-      const theme = localStorage.getItem('theme') || 'light';
-      document.documentElement.setAttribute('data-theme', theme);
-    })();
-  </script>
+    <!-- Theme bootstrap (IDENTICO al template) -->
+    <script>
+        (function() {
+            try {
+                var saved = localStorage.getItem('theme');
+                var theme = saved === 'dark' || saved === 'light' ? saved : 'light';
+                document.documentElement.setAttribute('data-theme', theme);
+            } catch (e) {
+                document.documentElement.setAttribute('data-theme', 'light');
+            }
+        })();
+    </script>
 </head>
 
 <body class="bg-global-bg text-global-text antialiased">
 
+<!-- ================= HEADER ================= -->
 <header id="main-header" class="group">
-  <div class="header-grid">
+    <div class="header-grid">
 
-  <a href="#" class="header-logo flex items-center">
-    <svg viewBox="0 0 128 128"
-         xmlns="http://www.w3.org/2000/svg"
-         role="img"
-         aria-label="GP logo"
-         class="me-3 h-10 w-10 sm:h-12 sm:w-12">
-      <defs>
-        <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-          <stop offset="0" stop-color="#6D28D9"></stop>
-          <stop offset="0.55" stop-color="#22C55E"></stop>
-          <stop offset="1" stop-color="#0EA5E9"></stop>
-        </linearGradient>
-  
-        <radialGradient id="shine" cx="30%" cy="25%" r="70%">
-          <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"></stop>
-          <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.10"></stop>
-          <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"></stop>
-        </radialGradient>
-  
-        <linearGradient id="txt" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#F8FAFC"></stop>
-          <stop offset="1" stop-color="#E2E8F0"></stop>
-        </linearGradient>
-  
-        <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
-          <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="b"></feGaussianBlur>
-          <feOffset in="b" dx="0" dy="8" result="o"></feOffset>
-          <feColorMatrix in="o" type="matrix"
-            values="0 0 0 0 0
-                    0 0 0 0 0
-                    0 0 0 0 0
-                    0 0 0 .35 0" result="s"></feColorMatrix>
-          <feMerge>
-            <feMergeNode in="s"></feMergeNode>
-            <feMergeNode in="SourceGraphic"></feMergeNode>
-          </feMerge>
-        </filter>
-  
-        <filter id="extrude" x="-30%" y="-30%" width="160%" height="160%">
-          <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="a"></feGaussianBlur>
-          <feOffset in="a" dx="2" dy="2" result="o1"></feOffset>
-          <feOffset in="a" dx="4" dy="4" result="o2"></feOffset>
-          <feOffset in="a" dx="6" dy="6" result="o3"></feOffset>
-          <feColorMatrix in="o1" type="matrix"
-            values="0 0 0 0 0
-                    0 0 0 0 0
-                    0 0 0 0 0
-                    0 0 0 .22 0" result="s1"></feColorMatrix>
-          <feColorMatrix in="o2" type="matrix"
-            values="0 0 0 0 0
-                    0 0 0 0 0
-                    0 0 0 0 0
-                    0 0 0 .16 0" result="s2"></feColorMatrix>
-          <feColorMatrix in="o3" type="matrix"
-            values="0 0 0 0 0
-                    0 0 0 0 0
-                    0 0 0 0 0
-                    0 0 0 .10 0" result="s3"></feColorMatrix>
-          <feMerge>
-            <feMergeNode in="s3"></feMergeNode>
-            <feMergeNode in="s2"></feMergeNode>
-            <feMergeNode in="s1"></feMergeNode>
-            <feMergeNode in="SourceGraphic"></feMergeNode>
-          </feMerge>
-        </filter>
-  
-        <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-          <feGaussianBlur stdDeviation="2.5" result="g"></feGaussianBlur>
-          <feColorMatrix in="g" type="matrix"
-            values="1 0 0 0 0
-                    0 1 0 0 0
-                    0 0 1 0 0
-                    0 0 0 .25 0" result="gc"></feColorMatrix>
-          <feMerge>
-            <feMergeNode in="gc"></feMergeNode>
-            <feMergeNode in="SourceGraphic"></feMergeNode>
-          </feMerge>
-        </filter>
-      </defs>
-  
-      <g filter="url(#softShadow)">
-        <rect x="10" y="10" width="108" height="108" rx="24" fill="url(#bg)"></rect>
-        <rect x="10" y="10" width="108" height="108" rx="24" fill="url(#shine)"></rect>
-        <rect x="14" y="14" width="100" height="100" rx="20"
-              fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"></rect>
-      </g>
-  
-      <g font-family="JetBrains Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace"
-         font-weight="800"
-         text-anchor="middle"
-         dominant-baseline="middle">
-        <text x="64" y="70" font-size="56" fill="#0B1220" opacity="0.22" filter="url(#extrude)">GP</text>
-        <text x="64" y="66" font-size="56" fill="url(#txt)" filter="url(#glow)" letter-spacing="-2">GP</text>
-        <text x="64" y="64" font-size="56" fill="#FFFFFF" opacity="0.16" letter-spacing="-2">GP</text>
-      </g>
-    </svg>
-  </a>
+        <!-- Logo -->
+        <a href="#" class="group header-logo flex items-center">
+            <!-- TUO SVG GP -->
+            <svg viewBox="0 0 128 128"
+                 xmlns="http://www.w3.org/2000/svg"
+                 role="img"
+                 aria-label="GP logo"
+                 class="me-3 h-10 w-10 sm:h-12 sm:w-12">
 
+                <defs>
+                    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+                        <stop offset="0" stop-color="#6D28D9"/>
+                        <stop offset="0.55" stop-color="#22C55E"/>
+                        <stop offset="1" stop-color="#0EA5E9"/>
+                    </linearGradient>
 
-    <div class="header-title">
-      <span class="text-xl font-bold sm:text-2xl">Germano Pansini</span>
+                    <radialGradient id="shine" cx="30%" cy="25%" r="70%">
+                        <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
+                        <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.10"/>
+                        <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+                    </radialGradient>
+
+                    <linearGradient id="txt" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0" stop-color="#F8FAFC"/>
+                        <stop offset="1" stop-color="#E2E8F0"/>
+                    </linearGradient>
+
+                    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+                        <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="b"/>
+                        <feOffset in="b" dx="0" dy="8" result="o"/>
+                        <feColorMatrix in="o" type="matrix"
+                            values="0 0 0 0 0
+                                    0 0 0 0 0
+                                    0 0 0 0 0
+                                    0 0 0 .35 0"/>
+                        <feMerge>
+                            <feMergeNode/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+
+                    <filter id="extrude" x="-30%" y="-30%" width="160%" height="160%">
+                        <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="a"/>
+                        <feOffset in="a" dx="2" dy="2"/>
+                        <feOffset in="a" dx="4" dy="4"/>
+                        <feOffset in="a" dx="6" dy="6"/>
+                        <feMerge>
+                            <feMergeNode/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+
+                    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+                        <feGaussianBlur stdDeviation="2.5"/>
+                        <feMerge>
+                            <feMergeNode/>
+                            <feMergeNode in="SourceGraphic"/>
+                        </feMerge>
+                    </filter>
+                </defs>
+
+                <g filter="url(#softShadow)">
+                    <rect x="10" y="10" width="108" height="108" rx="24" fill="url(#bg)"/>
+                    <rect x="10" y="10" width="108" height="108" rx="24" fill="url(#shine)"/>
+                    <rect x="14" y="14" width="100" height="100" rx="20"
+                          fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
+                </g>
+
+                <g font-family="JetBrains Mono, monospace"
+                   font-weight="800"
+                   text-anchor="middle"
+                   dominant-baseline="middle">
+                    <text x="64" y="70" font-size="56" fill="#0B1220" opacity="0.22">GP</text>
+                    <text x="64" y="66" font-size="56" fill="url(#txt)" filter="url(#glow)" letter-spacing="-2">GP</text>
+                    <text x="64" y="64" font-size="56" fill="#FFFFFF" opacity="0.16" letter-spacing="-2">GP</text>
+                </g>
+            </svg>
+        </a>
+
+        <!-- Title -->
+        <div class="header-title">
+            <span class="text-xl font-bold sm:text-2xl">Germano Pansini</span>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="mobile-nav-menu header-nav sm:flex sm:flex-row sm:items-center" id="navigation-menu">
+            <a href="#about">About</a>
+            <a href="#publications">Publications</a>
+            <a href="#resume">Résumé</a>
+        </nav>
+
+        <!-- Controls -->
+        <div class="header-controls flex items-center gap-3">
+
+            <!-- Theme toggle (IDENTICO al template) -->
+            <button id="theme-toggle"
+                    class="flex h-7 w-7 items-center justify-center rounded-md border border-accent-2/20 bg-accent-2/10 p-1 transition-colors hover:bg-accent-2/20"
+                    aria-label="Toggle theme">
+                <svg class="sun-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1z"/>
+                </svg>
+                <svg class="moon-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
+                </svg>
+            </button>
+
+            <!-- Mobile menu -->
+            <button id="toggle-navigation-menu"
+                    class="flex h-7 w-7 items-center justify-center rounded-md border border-accent-2/20 bg-accent-2/10 p-1 transition-colors hover:bg-accent-2/20 sm:hidden"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+        </div>
     </div>
-
-    <nav class="mobile-nav-menu header-nav sm:flex sm:flex-row sm:items-center" id="navigation-menu">
-      <a href="#about">About</a>
-      <a href="#publications">Publications</a>
-      <a href="#resume">Résumé</a>
-    </nav>
-
-    <div class="header-controls flex items-center gap-3">
-      <button
-        id="theme-toggle"
-        class="flex h-7 w-7 items-center justify-center rounded-md border border-accent-2/20 bg-accent-2/10 p-1"
-        aria-label="Toggle theme">
-
-        <svg class="sun-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1z"/>
-        </svg>
-
-        <svg class="moon-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-          <path d="M17.293 13.293A8 8 0 016.707 2.707a8 8 0 1010.586 10.586z"/>
-        </svg>
-
-      </button>
-
-      <button id="toggle-navigation-menu"
-        class="flex h-7 w-7 items-center justify-center rounded-md border border-accent-2/20 bg-accent-2/10 p-1 sm:hidden"
-        aria-expanded="false">
-        <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-        </svg>
-      </button>
-    </div>
-
-  </div>
 </header>
 
+<!-- ================= MAIN ================= -->
 <main class="mx-auto max-w-3xl px-4 sm:px-8">
-  <section id="about" class="mb-16">
-    <div class="prose" id="about-content"></div>
-  </section>
 
-  <section id="publications" class="mb-16">
-    <div class="prose" id="publications-content"></div>
-  </section>
+    <section id="about" class="mb-16">
+        <div class="prose" id="about-content">
+            <div class="loading-spinner">Loading about content...</div>
+        </div>
+    </section>
 
-  <section id="resume" class="mb-16">
-    <div class="prose" id="resume-content"></div>
-  </section>
+    <section id="publications" class="mb-16">
+        <div class="prose" id="publications-content">
+            <div class="loading-spinner">Loading publications content...</div>
+        </div>
+    </section>
+
+    <section id="resume" class="mb-16">
+        <div class="prose" id="resume-content">
+            <div class="loading-spinner">Loading résumé content...</div>
+        </div>
+    </section>
+
 </main>
 
+<!-- ================= FOOTER ================= -->
 <footer class="mx-auto max-w-3xl px-4 sm:px-8 py-8 text-center text-sm opacity-75">
-  © Germano Pansini — Robotics & Computer Vision
+    © Germano Pansini — Robotics & Computer Vision
 </footer>
 
 <script src="script.js"></script>
