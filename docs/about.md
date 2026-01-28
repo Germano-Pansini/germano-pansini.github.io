@@ -25,14 +25,13 @@ My work emphasizes **end-to-end systems**: from data acquisition and model train
 
 ### AI-Driven Vision System for Drone Flight Control
 
-Real-time vision pipeline for gesture-based drone control, integrated with a ROS control stack and PID-based flight correction under low-latency constraints.  
+Real-time vision pipeline for gesture-based drone control, integrated with a ROS
+control stack and PID-based flight correction under low-latency constraints.
 This project was presented as a winning research demo at Maker Faire Rome 2024.
 
-<video controls preload="metadata" style="width:100%;border-radius:8px;">
-  <source src="assets/videos/drone_gesture_control.mp4" type="video/mp4">
-</video>
+![Drone vision system poster](assets/images/makerfaire_2024_drone_poster.png)
 
-- Poster: `assets/images/makerfaire_2024_drone_poster.png`
+- Video demo: [MP4](assets/videos/drone_gesture_control.mp4)
 - Certificate: [PDF](assets/pdf/makerfaire_2024_certificate.pdf)
 
 ---
@@ -43,7 +42,8 @@ Tracked rover brought from mechanics-only base to a fully operational robotic sy
 The platform integrates LiDAR and RGB-D sensing, ROS-based SLAM, and remote teleoperation,
 producing live 3D maps visualized in RViz.
 
-- Poster: `assets/images/makerfaire_2024_rover_poster.png`
+![Tracked rover poster](assets/images/makerfaire_2024_rover_poster.png)
+
 - Robotics Demo 1: https://www.youtube.com/watch?v=MevmB0SO3JE
 - Robotics Demo 2: https://www.youtube.com/watch?v=FkRZWmPqa9c
 
@@ -51,7 +51,9 @@ producing live 3D maps visualized in RViz.
 
 ### Edge Pest Monitoring (TRAPScore)
 
-End-to-end computer vision pipeline for pest detection and monitoring in agricultural environments.
-The system covers dataset curation and versioning, YOLOv8 training, and real-time inference on Raspberry Pi platforms for counting and monitoring.
+End-to-end computer vision pipeline for pest detection and monitoring in agricultural
+environments, covering dataset curation and versioning, YOLOv8 training, and real-time
+inference on Raspberry Pi platforms.
 
-- Dataset & versioning: https://universe.roboflow.com/dacus-xksjc/bactrocera-oleae-detection/dataset/12
+- Dataset (Roboflow): https://universe.roboflow.com/dacus-xksjc/bactrocera-oleae-detection/dataset/12
+
