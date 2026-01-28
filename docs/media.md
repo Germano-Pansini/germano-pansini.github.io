@@ -2,7 +2,7 @@
 # Media
 
 <div class="rounded-2xl border border-accent-2/20 bg-accent-2/5 p-4">
-  Curated demos and documents mapped to the items in the Résumé. Videos are playable directly on-page (YouTube embeds and local MP4).
+  Here you can see the projects in action, through selected demos, videos, and supporting material.
 </div>
 
 <br>
