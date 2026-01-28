@@ -33,6 +33,16 @@
         <span>Email</span>
       </a>
     </div>
+
+    <a href="CV_Germano_PANSINI.pdf" target="_blank" rel="noopener"
+      style="display:inline-flex;align-items:center;gap:0.5rem;text-decoration:none;color:var(--color-accent-2);">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+          style="width:20px;height:20px;opacity:0.9;" fill="currentColor">
+        <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V8h4.5L14 3.5zM8 12h8v-2H8v2zm0 4h8v-2H8v2zm0 4h5v-2H8v2z"/>
+      </svg>
+      <span>Curriculum Vitae (PDF)</span>
+    </a>
+    
   </div>
 </div>
 
