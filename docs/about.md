@@ -34,23 +34,31 @@
       </a>
     </div>
 
-    <a href="CV_Germano_PANSINI.pdf" target="_blank" rel="noopener"
+    <a href="CV-Germano_PANSINI.pdf" target="_blank" rel="noopener"
       style="display:inline-flex;align-items:center;gap:0.5rem;text-decoration:none;color:var(--color-accent-2);">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
           style="width:20px;height:20px;opacity:0.9;" fill="currentColor">
         <path d="M6 2h9l5 5v15a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm8 1.5V8h4.5L14 3.5zM8 12h8v-2H8v2zm0 4h8v-2H8v2zm0 4h5v-2H8v2z"/>
       </svg>
-      <span>Curriculum Vitae (PDF)</span>
+      <span>Download CV</span>
     </a>
     
   </div>
 </div>
 
-I enjoy building robots and intelligent systems that interact with the physical world, combining perception, learning, and real-time control.
+I’m passionate about **autonomous robotics** and enjoy building robots and drones that interact with the real world. I like working end-to-end, combining **hands-on hardware work** (electronics, wiring, sensor integration) with **software development** for perception, control, and autonomy, mainly in Linux/Ubuntu environments using ROS/ROS2 and computer vision.
 
-I hold a **M.Sc. in Computer Engineering (AI & Data Science)** and a **B.Sc. in Electronics and Telecommunications Engineering** from the [Polytechnic University of Bari](https://www.poliba.it/). My academic and research activity has been carried out within the [SST Lab — Signals and Systems for Telecommunications and Robotics](https://research.poliba.it/laboratories/sst-lab), where I was awarded **two post-graduate research fellowships** and worked on applied robotics and computer vision projects.
+### Qualifications
+- **M.Sc. in Computer Engineering (AI & Data Science)** — Polytechnic University of Bari  
+- **B.Sc. in Electronics and Telecommunications Engineering** — Polytechnic University of Bari  
 
-My work focuses on computer vision, perception pipelines, and deployment on real robotic platforms. I design end-to-end systems, from data collection and model training to integration on edge devices (Raspberry Pi, Jetson) and robotic frameworks (ROS/ROS2, LiDAR, RGB-D, IMU). Recent projects include embedded vision for in-field monitoring, vision-driven drone control via hand gestures, and tracked rovers for remote navigation and real-time 3D mapping.
+My interests focus on **robotics perception and computer vision**, from data collection and model training to deployment on real robotic platforms. I work on practical systems such as vision-driven drones and tracked rovers, with strong attention to real-time behavior, robustness, and system integration.
 
-Watch the **Media** section to see the projects in action :).
+### Skills (high-level)
+- **Programming**: Python, C++, MATLAB  
+- **Perception / ML**: PyTorch, TensorFlow, YOLOv8, SegFormer  
+- **Computer Vision / Data**: OpenCV, NumPy, Pandas, Scikit-learn, Matplotlib  
+- **Robotics**: ROS/ROS2, SLAM, LiDAR, RGB-D, IMU, sonar, sensor fusion  
+- **Simulation & Digital Twins**: NVIDIA Omniverse, Isaac Sim, OpenUSD, Gazebo, RViz  
+- **Systems & Tooling**: Linux (Ubuntu), Git, Docker, Conda, SSH, Raspberry Pi, Jetson, Pixhawk
 

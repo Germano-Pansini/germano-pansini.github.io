@@ -1,5 +1,5 @@
 <!-- docs/resume.md -->
-# Résumé
+# Résumé 
 
 <div class="timeline">
 
@@ -112,9 +112,4 @@
 
 <hr>
 
-## Skills (high-level)
 
-- **Programming**: Python, C++, MATLAB  
-- **Perception / ML**: PyTorch, TensorFlow, YOLOv8, SegFormer  
-- **Computer Vision / Data**: OpenCV, NumPy, Pandas, Scikit-learn, Matplotlib  
-- **Robot**
