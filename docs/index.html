@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Theme bootstrap (IDENTICAL to the template behavior) -->
     <script>
         (function() {
             try {
@@ -28,153 +27,33 @@
 
 <body class="bg-global-bg text-global-text antialiased">
 
-<!-- ================= HEADER ================= -->
 <header id="main-header" class="group">
     <div class="header-grid">
 
-        <!-- Logo -->
         <a href="#" class="group header-logo flex items-center">
-            <!-- Your SVG GP -->
-            <svg viewBox="0 0 128 128"
-                 xmlns="http://www.w3.org/2000/svg"
-                 role="img"
-                 aria-label="GP logo"
-                 class="me-3 h-10 w-10 sm:h-12 sm:w-12">
-
-                <defs>
-                    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-                        <stop offset="0" stop-color="#6D28D9"/>
-                        <stop offset="0.55" stop-color="#22C55E"/>
-                        <stop offset="1" stop-color="#0EA5E9"/>
-                    </linearGradient>
-
-                    <radialGradient id="shine" cx="30%" cy="25%" r="70%">
-                        <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.55"/>
-                        <stop offset="0.45" stop-color="#FFFFFF" stop-opacity="0.10"/>
-                        <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
-                    </radialGradient>
-
-                    <linearGradient id="txt" x1="0" y1="0" x2="0" y2="1">
-                        <stop offset="0" stop-color="#F8FAFC"/>
-                        <stop offset="1" stop-color="#E2E8F0"/>
-                    </linearGradient>
-
-                    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
-                        <feGaussianBlur in="SourceAlpha" stdDeviation="5" result="b"/>
-                        <feOffset in="b" dx="0" dy="8" result="o"/>
-                        <feColorMatrix in="o" type="matrix"
-                            values="0 0 0 0 0
-                                    0 0 0 0 0
-                                    0 0 0 0 0
-                                    0 0 0 .35 0"/>
-                        <feMerge>
-                            <feMergeNode/>
-                            <feMergeNode in="SourceGraphic"/>
-                        </feMerge>
-                    </filter>
-
-                    <filter id="extrude" x="-30%" y="-30%" width="160%" height="160%">
-                        <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="a"/>
-                        <feOffset in="a" dx="2" dy="2"/>
-                        <feOffset in="a" dx="4" dy="4"/>
-                        <feOffset in="a" dx="6" dy="6"/>
-                        <feMerge>
-                            <feMergeNode/>
-                            <feMergeNode in="SourceGraphic"/>
-                        </feMerge>
-                    </filter>
-
-                    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-                        <feGaussianBlur stdDeviation="2.5"/>
-                        <feMerge>
-                            <feMergeNode/>
-                            <feMergeNode in="SourceGraphic"/>
-                        </feMerge>
-                    </filter>
-                </defs>
-
-                <g filter="url(#softShadow)">
-                    <rect x="10" y="10" width="108" height="108" rx="24" fill="url(#bg)"/>
-                    <rect x="10" y="10" width="108" height="108" rx="24" fill="url(#shine)"/>
-                    <rect x="14" y="14" width="100" height="100" rx="20"
-                          fill="none" stroke="#FFFFFF" stroke-opacity="0.18" stroke-width="2"/>
-                </g>
-
-                <g font-family="JetBrains Mono, monospace"
-                   font-weight="800"
-                   text-anchor="middle"
-                   dominant-baseline="middle">
-                    <text x="64" y="70" font-size="56" fill="#0B1220" opacity="0.22">GP</text>
-                    <text x="64" y="66" font-size="56" fill="url(#txt)" filter="url(#glow)" letter-spacing="-2">GP</text>
-                    <text x="64" y="64" font-size="56" fill="#FFFFFF" opacity="0.16" letter-spacing="-2">GP</text>
-                </g>
-            </svg>
         </a>
 
-        <!-- Title -->
         <div class="header-title">
             <span class="text-xl font-bold sm:text-2xl">Germano Pansini</span>
         </div>
 
-        <!-- Navigation -->
         <nav class="mobile-nav-menu header-nav sm:flex sm:flex-row sm:items-center" id="navigation-menu">
             <a href="#about">About</a>
-            <a href="#publications">Publications</a>
-            <a href="#resume">Résumé</a>
             <a href="#media">Media</a>
+            <a href="#resume">Résumé</a>
+            <a href="#publications">Publications</a>
         </nav>
 
-        <!-- Controls -->
         <div class="header-controls flex items-center gap-3">
-
-            <!-- Theme toggle -->
-            <button id="theme-toggle"
-                    class="flex h-7 w-7 items-center justify-center rounded-md border border-accent-2/20 bg-accent-2/10 p-1 transition-colors hover:bg-accent-2/20"
-                    aria-label="Toggle theme">
-                <svg class="sun-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1z"/>
-                </svg>
-                <svg class="moon-icon h-4 w-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/>
-                </svg>
-            </button>
-
-            <!-- Mobile menu -->
-            <button id="toggle-navigation-menu"
-                    class="flex h-7 w-7 items-center justify-center rounded-md border border-accent-2/20 bg-accent-2/10 p-1 transition-colors hover:bg-accent-2/20 sm:hidden"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M4 6h16M4 12h16M4 18h16"/>
-                </svg>
-                <svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                          d="M6 18L18 6M6 6l12 12"/>
-                </svg>
-            </button>
         </div>
     </div>
 </header>
 
-<!-- ================= MAIN ================= -->
 <main class="mx-auto max-w-3xl px-4 sm:px-8">
 
     <section id="about" class="mb-16">
         <div class="prose" id="about-content">
             <div class="loading-spinner">Loading about content...</div>
-        </div>
-    </section>
-
-    <section id="publications" class="mb-16">
-        <div class="prose" id="publications-content">
-            <div class="loading-spinner">Loading publications content...</div>
-        </div>
-    </section>
-
-    <section id="resume" class="mb-16">
-        <div class="prose" id="resume-content">
-            <div class="loading-spinner">Loading résumé content...</div>
         </div>
     </section>
 
@@ -184,9 +63,20 @@
         </div>
     </section>
 
+    <section id="resume" class="mb-16">
+        <div class="prose" id="resume-content">
+            <div class="loading-spinner">Loading résumé content...</div>
+        </div>
+    </section>
+
+    <section id="publications" class="mb-16">
+        <div class="prose" id="publications-content">
+            <div class="loading-spinner">Loading publications content...</div>
+        </div>
+    </section>
+
 </main>
 
-<!-- ================= FOOTER ================= -->
 <footer class="mx-auto max-w-3xl px-4 sm:px-8 py-8 text-center text-sm opacity-75">
     © Germano Pansini — Robotics & Computer Vision
 </footer>
