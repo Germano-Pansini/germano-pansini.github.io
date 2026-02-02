@@ -51,5 +51,3 @@ I like working end-to-end, combining **hands-on hardware work** (electronics, wi
 
 My interests focus on **robotics perception and computer vision**, from data collection and model training to deployment on real robotic platforms.  
 I mainly work in **Linux/Ubuntu environments**, using **ROS/ROS2** and computer vision libraries to build practical systems such as vision-driven drones and tracked rovers, with strong attention to real-time behavior, robustness, and system integration.
-
-…
